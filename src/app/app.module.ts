@@ -14,13 +14,26 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { ToolbarComponent } from './toolbar/toolbar.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { SideNavigationComponent } from './side-navigation/side-navigation.component';
-import {MatSidenavModule} from '@angular/material/sidenav';
+import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatFormFieldModule } from '@angular/material/form-field';
+
+import { MyNavComponent } from './my-nav/my-nav.component';
+import { MatListModule } from '@angular/material/list';
+import { DisplayDriverComponent } from './display-driver/display-driver.component';
+import { FsoDashBoardComponent } from './fso-dash-board/fso-dash-board.component';
+import { ProspectFormsComponent } from './prospect-forms/prospect-forms.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashBoardComponent, 
-    ToolbarComponent, SideNavigationComponent
+    ToolbarComponent,
+    SideNavigationComponent,
+    MyNavComponent,
+    DisplayDriverComponent,
+    FsoDashBoardComponent,
+    ProspectFormsComponent
   ],
   imports: [
     BrowserModule,
@@ -33,7 +46,10 @@ import {MatSidenavModule} from '@angular/material/sidenav';
     MatButtonModule,
     LayoutModule, 
     MatToolbarModule, 
-    MatSidenavModule
+    MatSidenavModule,
+    MatListModule,
+    MatFormFieldModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
