@@ -1,0 +1,27 @@
+.sidenav-container {
+  height: 100%;
+  background:linear-gradient(#EEEBE4,#C4BBA1)
+}
+
+.sidenav {
+  width: 200px;
+  background:#D8431A
+  
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background:linear-gradient(to right,#D8431A,#F76000);
+}
+
+#bottom {
+  width: 199px;
+  position: absolute;
+  bottom: 0;
+}
