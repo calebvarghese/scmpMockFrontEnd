@@ -16,14 +16,12 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { SideNavigationComponent } from './side-navigation/side-navigation.component';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatTable, MatTableModule } from '@angular/material/table';
 
 import { MyNavComponent } from './my-nav/my-nav.component';
 import { MatListModule } from '@angular/material/list';
 import { DisplayDriverComponent } from './display-driver/display-driver.component';
 import { ProspectFormsComponent } from './prospect-forms/prospect-forms.component';
 import { ReactiveFormsModule } from '@angular/forms';
-import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -33,8 +31,7 @@ import { UsersComponent } from './users/users.component';
     SideNavigationComponent,
     MyNavComponent,
     DisplayDriverComponent,
-    ProspectFormsComponent,
-    UsersComponent
+    ProspectFormsComponent
   ],
   imports: [
     BrowserModule,
@@ -50,8 +47,7 @@ import { UsersComponent } from './users/users.component';
     MatSidenavModule,
     MatListModule,
     MatFormFieldModule,
-    ReactiveFormsModule,
-    MatTableModule
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
