@@ -53,7 +53,7 @@ import { UsersComponent } from './users/users.component';
     MatListModule,
     MatFormFieldModule,
     ReactiveFormsModule,
-    MatTableModule
+    MatTableModule,
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
