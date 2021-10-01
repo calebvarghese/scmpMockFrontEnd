@@ -17,7 +17,9 @@ import { SideNavigationComponent } from './side-navigation/side-navigation.compo
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatTable, MatTableModule } from '@angular/material/table';
-
+import { MatInputModule } from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 import { MyNavComponent } from './my-nav/my-nav.component';
 import { MatListModule } from '@angular/material/list';
 import { DisplayDriverComponent } from './display-driver/display-driver.component';
@@ -28,7 +30,7 @@ import { UsersComponent } from './users/users.component';
 @NgModule({
   declarations: [
     AppComponent,
-    DashBoardComponent, 
+    DashBoardComponent,
     ToolbarComponent,
     SideNavigationComponent,
     MyNavComponent,
@@ -45,15 +47,19 @@ import { UsersComponent } from './users/users.component';
     MatMenuModule,
     MatIconModule,
     MatButtonModule,
-    LayoutModule, 
-    MatToolbarModule, 
+    LayoutModule,
+    MatToolbarModule,
     MatSidenavModule,
     MatListModule,
     MatFormFieldModule,
     ReactiveFormsModule,
     MatTableModule
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    ReactiveFormsModule
   ],
-  providers: [],
+  providers: [MatDatepickerModule],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
