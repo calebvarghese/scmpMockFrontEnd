@@ -25,6 +25,7 @@ import { MatListModule } from '@angular/material/list';
 import { DisplayDriverComponent } from './display-driver/display-driver.component';
 import { ProspectFormsComponent } from './prospect-forms/prospect-forms.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ProfileComponent } from './profile/profile.component';
 import { UsersComponent } from './users/users.component';
 
 @NgModule({
@@ -36,6 +37,7 @@ import { UsersComponent } from './users/users.component';
     MyNavComponent,
     DisplayDriverComponent,
     ProspectFormsComponent,
+    ProfileComponent,
     UsersComponent
   ],
   imports: [
