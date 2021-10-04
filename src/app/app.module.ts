@@ -22,6 +22,7 @@ import { MatListModule } from '@angular/material/list';
 import { DisplayDriverComponent } from './display-driver/display-driver.component';
 import { ProspectFormsComponent } from './prospect-forms/prospect-forms.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     SideNavigationComponent,
     MyNavComponent,
     DisplayDriverComponent,
-    ProspectFormsComponent
+    ProspectFormsComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
