@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
- export interface user {
+ export interface users {
    last: string;
    first: string;
    action: string;
@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
    clearence: string;
  }
 
- const ELEMENT_DATA: user[] = [
+ const ELEMENT_DATA: users[] = [
    {last: 'Varghese', first: 'Caleb', action: 'waiting', status:'waiting', clearence: 'none'},
    {last: 'Walker', first: 'Tyler', action: 'cleared', status:'cleared', clearence: 'none'},
    {last: 'Roberts', first: 'Kira', action: 'pending', status:'pending', clearence: 'none'},
@@ -24,7 +24,6 @@ import { Component, OnInit } from '@angular/core';
    styleUrls: ['./users.component.scss']
  })
  export class UsersComponent implements OnInit {
-
    constructor() { }
    displayedColumns: string[] = ['last', 'first', 'action', 'status', 'clearence'];
    ngOnInit(): void {}
