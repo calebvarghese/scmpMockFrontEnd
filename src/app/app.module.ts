@@ -25,6 +25,7 @@ import { MatListModule } from '@angular/material/list';
 import { DisplayDriverComponent } from './display-driver/display-driver.component';
 import { ProspectFormsComponent } from './prospect-forms/prospect-forms.component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { ProfileComponent } from './profile/profile.component';
 import { UsersComponent } from './users/users.component';
 import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
 import {MatPaginatorModule} from '@angular/material/paginator';
@@ -47,7 +48,8 @@ import {MatCheckbox, MatCheckboxModule} from '@angular/material/checkbox';
     UserDashboardComponent,
     TasklistComponent,
     ProjectDashboardComponent,
-    ClearenceDashboardComponent
+    ClearenceDashboardComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
